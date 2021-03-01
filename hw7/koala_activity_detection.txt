@@ -1,0 +1,63 @@
+Deep learning techniques for koala activity detection
+
+摘要 :
+	幫助生態學家，保護團體和政府部門對koala的保護和保護牠們的棲息地
+	受各種音頻分類任務中深度學習方法成功的啟發，本文研究了使用卷積遞歸神經網絡架構（CNN + RNN）識別koala的呼叫聲。
+	In our datasets , CNN + RNN結構有利於在未知條件下學習koala呼叫聲的 long-term patterns in spectrogram exhibited 
+	所提出的方法也適用於檢測其他動物呼叫，例如鳥類聲音
+	
+簡介 :
+	在世界許多地方擴大城市化正在影響生物多樣性，例如，在昆士蘭東南部，人口密度的增加被認為是考拉種群數量下降的主要因素
+	澳大利亞參議院的一項調查（澳大利亞聯邦，2011年）建議實施棲息地測繪，以協助koala的管理，為該物種提供可靠的分佈模型
+	為了監測野生動物，生態學家經常使用聲學傳感器作為收集數據的有效方法
+	記錄的聲學數據為生態學家提供了識別特定物種的手段，並根據動物在其棲息地的交配時的呼叫聲進行物種豐富度調查。
+	為了從錄音中進行物種的分類，專業人員需要在數小時內收聽大批錄音來識別出不同的或特定的物種
+	因此，自動識別出koala呼叫聲的工具可以提高生態學家的調查效率。
+	
+	動物發聲的自動檢測，例如交配呼叫和鳥鳴，是最近數十年來深入研究的主題之一。最近，生物聲學或生態聲學，已成為“大數據”研究領域之一。
+	隨著錄音裝置的普及，例如手機上的麥克風，現時研究所產生的錄音數據數量遠遠超過可以手動分析的數量。
+	使用聲學記錄對其他動物（如青蛙，蝙蝠和海洋哺乳動物）的檢測和分類的使用也已被廣泛研究用於保護自然生態系統
+	
+	提取了與生物聲學活動具有不同程度的相關性的十四個聲學指數
+	
+	實際上， 通過將深度學習模型應用於檢測和分類任務 ，生態聲學研究可以從“大數據”分析中獲益。
+	
+	koala的呼叫聲由單個重複或振盪元素組成，在較低頻率下進行一系列吸氣和呼氣持續30秒或更長時間
+	
+	本文研究了使用卷積遞歸神經網絡架構（CNN + RNN），主要想法是使用CNN作為特徵提取器和RNN來模擬長期依賴關係
+	類似的組合CNN + RNN架構也已被提出在automatic speech recognition , speaker verification antispoofing , as well as music classification等領域 
+	使用constant Q transform (CQT)提取特徵，captures low frequency at higher frequency resolution
+	
+與先前作品的關係 :
+
+	CNN與傳統網絡的不同之處在於通過明確假設輸入數據是圖像來學習 filters that are shifted in both frequency and time
+	對於處理具有時間特徵的patterns，CNN缺乏longer temporal context information
+	透過將local feature extraction的CNN及RNNs結合成一個network來提取temporal information
+	
+數據和方法 :
+	Datasets :
+	雄性Koala在繁殖季節所發出的叫聲可以用來估計牠們的數量
+	原始聲學數據(acoustic data)來自夜間時在新南威爾士州（NSW）Willi Willi國家公園的63個站點的記錄數據
+	在每個站點，都會使用一個SongMeter（SM2 Wildlife Acoustics）來記錄Koala的叫聲，在SongMeter可以記錄週邊至少100M範例內的叫聲
+	以不同站點中是否有Koala棲息來為raw acoustic data 來分類
+	使用大約3.6小時的Koala叫聲作為正例(positive examples)，超過7小時的其他聲音剪輯作為數據集中的負面示例(negative examples)（例如，噪音，蟋蟀，青蛙和鳥類呼叫，車輛）。
+	按順序從數據集中以六秒鐘長的uniform audio clip來生成input features，為positive and negative classes分別產生出2181 and 4337筆資料，當中80%作為training set，20%作為test set
+	
+	Time and frequency shifts被用作為data augmentation的方法來擴大training dataset來減少出現overfitting的情況
+	...
+	
+特徵提取 :
+	constant Q transform採用幾何間隔的頻率區間，當中Q-factors在整個頻譜上都是相等的
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+常數Q轉換
+https://zh.wikipedia.org/wiki/%E5%B8%B8%E6%95%B8Q%E8%BD%89%E6%8F%9B
+	
