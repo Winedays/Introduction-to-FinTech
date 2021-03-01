@@ -1,24 +1,24 @@
 ###### tags: `fintech`
 # HW6
 https://docs.google.com/spreadsheets/d/1GPR6WQAwB9f6VyiEyCW3XHKVDJFMk-KgONAwKOgTPTE/edit?usp=sharing
-Q{1-3}_x : x坐標
-Q{1-3}_y : y坐標
-Q{1-3}_x_hex : x坐標(16進位)
-Q{1-3}_y_hex : y坐標(16進位)
-Q4_Total_step : 總運算次數
-Q4_double_step : Double次數
-Q4_add_step	: Add次數
-Q4_bin : d的二進位
-Q5_Total_step : 總運算次數
-Q5_double_step : Double次數
-Q5_add_step : Add次數
-Q5_inv_add_step : Inverse Add次數
-Q5_inv_bin : d的二進位轉換，Double & Add結果
+Q{1-3}_x : x坐標  
+Q{1-3}_y : y坐標  
+Q{1-3}_x_hex : x坐標(16進位)  
+Q{1-3}_y_hex : y坐標(16進位)  
+Q4_Total_step : 總運算次數  
+Q4_double_step : Double次數  
+Q4_add_step	: Add次數  
+Q4_bin : d的二進位  
+Q5_Total_step : 總運算次數  
+Q5_double_step : Double次數  
+Q5_add_step : Add次數  
+Q5_inv_add_step : Inverse Add次數  
+Q5_inv_bin : d的二進位轉換，Double & Add結果  
 
 ## 分工
-傳祐：第1~4頁
-政鷹：第5~8頁
-智顥：第9~12頁
+傳祐：第1~4頁  
+政鷹：第5~8頁  
+智顥：第9~12頁  
 
 
 ## 其他標準
