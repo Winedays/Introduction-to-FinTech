@@ -1,6 +1,6 @@
 ###### tags: `fintech`
 # HW6
-https://docs.google.com/spreadsheets/d/1GPR6WQAwB9f6VyiEyCW3XHKVDJFMk-KgONAwKOgTPTE/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1GPR6WQAwB9f6VyiEyCW3XHKVDJFMk-KgONAwKOgTPTE/edit?usp=sharing  
 Q{1-3}_x : x坐標  
 Q{1-3}_y : y坐標  
 Q{1-3}_x_hex : x坐標(16進位)  
