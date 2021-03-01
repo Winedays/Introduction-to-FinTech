@@ -16,9 +16,9 @@ Q5_inv_add_step : Inverse Add次數
 Q5_inv_bin : d的二進位轉換，Double & Add結果  
 
 ## 分工
-傳祐：第1~4頁  
-政鷹：第5~8頁  
-智顥：第9~12頁  
+傳祐：第1-4頁  
+政鷹：第5-8頁  
+智顥：第9-12頁  
 
 
 ## 其他標準
@@ -85,7 +85,7 @@ Q5_inv_bin : d的二進位轉換，Double & Add結果
 * 有k & k^-1正確： 5分
 * 算出x_1 & y_1： 5分
 * r算式正確 ： 5分
-* s算式正確 ： 5分
+* s算式正確 ： 5分  
 ![](https://i.imgur.com/qdZPwwX.png)
 
 ## Q7
@@ -101,55 +101,55 @@ Q5_inv_bin : d的二進位轉換，Double & Add結果
 * w算式正確： 5分 
 * 算出 u_1 & u_2： 5分 
 * 算出 x_1 & y_1： 5分
-* 驗算 r == x_1： 5分
+* 驗算 r == x_1： 5分  
 ![](https://i.imgur.com/Uez0GdU.png)
 
 ## Q6-7 Sage相關語法
-* secp256k1 
+* secp256k1   
     1.
-    ![](https://i.imgur.com/KV0usM1.png)
+    ![](https://i.imgur.com/KV0usM1.png)  
     2.
     ![](https://i.imgur.com/D3hrSpb.png)
 
-* Mod function / inverse mod. function
-    * IntegerModRing(n)
-    * 1 / IntegerModRing(n)
-    ![](https://i.imgur.com/O0UdUuu.png)
-    * FiniteField(n)
-    * 1 / FiniteField(n)
-    ![](https://i.imgur.com/9SWZbMO.png)
-    * GF(n)
-    * 1 / GF(n)
-    ![](https://i.imgur.com/ElDA8SH.png)
-    * n / n.inverse_mod()
-    ![](https://i.imgur.com/0mFodI7.png)
-    * FiniteField(n).random_element()
-    ![](https://i.imgur.com/ovBdxue.png)
-    * Integer(n)
-    * 1 / Integer(n)
-    ![](https://i.imgur.com/gGZ6uze.png)
+* Mod function / inverse mod. function  
+    * IntegerModRing(n)  
+    * 1 / IntegerModRing(n)  
+    ![](https://i.imgur.com/O0UdUuu.png)  
+    * FiniteField(n)  
+    * 1 / FiniteField(n)  
+    ![](https://i.imgur.com/9SWZbMO.png)  
+    * GF(n)  
+    * 1 / GF(n)  
+    ![](https://i.imgur.com/ElDA8SH.png)  
+    * n / n.inverse_mod()  
+    ![](https://i.imgur.com/0mFodI7.png)  
+    * FiniteField(n).random_element()  
+    ![](https://i.imgur.com/ovBdxue.png)  
+    * Integer(n)  
+    * 1 / Integer(n)  
+    ![](https://i.imgur.com/gGZ6uze.png)  
 
 
 
 
 # sample
-1. Q6-7沒有載圖定義橢圓曲線G的code -> 算了給過
-![](https://i.imgur.com/fGzIPAF.png)
-2. Q6-7把前一句print的結果寫死在code裡 -> 算了給過
-![](https://i.imgur.com/D20xolx.png)
-3. Q6-7截圖code沒有d，但作業一開始有寫 -> 給過
-![](https://i.imgur.com/BUQf69S.png)
-4. Q6-7截圖code只給一點，不完整 -> 最多給10分
-![](https://i.imgur.com/NWN6KqA.png)
-5. Q1-3沒有分別寫x,y坐標 -> 0分，別麻煩自己
-![](https://i.imgur.com/DGwp0HJ.png)
-6. Q4-5步驟寫一半 -> 給過
-![](https://i.imgur.com/3wIrWXJ.png)
+1. Q6-7沒有載圖定義橢圓曲線G的code -> 算了給過  
+![](https://i.imgur.com/fGzIPAF.png)  
+2. Q6-7把前一句print的結果寫死在code裡 -> 算了給過  
+![](https://i.imgur.com/D20xolx.png)  
+3. Q6-7截圖code沒有d，但作業一開始有寫 -> 給過  
+![](https://i.imgur.com/BUQf69S.png)  
+4. Q6-7截圖code只給一點，不完整 -> 最多給10分  
+![](https://i.imgur.com/NWN6KqA.png)  
+5. Q1-3沒有分別寫x,y坐標 -> 0分，別麻煩自己  
+![](https://i.imgur.com/DGwp0HJ.png)  
+6. Q4-5步驟寫一半 -> 給過  
+![](https://i.imgur.com/3wIrWXJ.png)  
 
 
 
 # Github
-https://github.com/TheBlueMatt/bitcoinninja/blob/master/secp256k1.ecdsa.sage?fbclid=IwAR3o79aPnnlCPG3PjVyR9BAMfiJ63dqANgjolrd2_J8kPfIj9glRPFiLDxY
+https://github.com/TheBlueMatt/bitcoinninja/blob/master/secp256k1.ecdsa.sage?fbclid=IwAR3o79aPnnlCPG3PjVyR9BAMfiJ63dqANgjolrd2_J8kPfIj9glRPFiLDxY  
 ![](https://i.imgur.com/YoCBXnU.png)
 
 # ?
